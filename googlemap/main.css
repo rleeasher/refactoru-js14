@@ -1,0 +1,32 @@
+*, *:before, *:after {
+  -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; padding: 0; border:none;
+ }
+
+ a {
+ 	text-decoration: none;
+ 	color: black;
+ }
+
+html {
+
+}
+
+body {
+
+}
+
+.remove-css {
+	border: none;
+	padding: 0;
+	margin: 0;
+}
+
+.hidden {
+	display: none;
+}
+
+/*main map that will be clicked upon*/
+#map-canvas {
+	height: 500px;
+	width: 800px;
+}

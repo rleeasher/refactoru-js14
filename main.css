@@ -1,0 +1,42 @@
+*, *:before, *:after {
+  -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; padding: 0; border:none;
+ }
+
+ a {
+ 	text-decoration: none;
+ 	color: black;
+ }
+
+.remove-css {
+	border: none;
+	padding: 0;
+	margin: 0;
+}
+
+.hidden {
+	display: none;
+}
+
+/*main map that will be clicked upon*/
+#main-map {
+	position: relative;
+	width: 100%;
+}
+
+.pushpin {
+	position: relative;
+	height: 40px;
+	width: 40px;
+	cursor: pointer;
+}
+
+.note {
+	position: absolute;
+}
+.note-text {
+	height:50px;
+	width: 200px;
+	padding: 2px;
+	outline: 0;
+	font-size: 12px;
+}
